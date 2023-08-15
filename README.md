@@ -134,7 +134,9 @@ Contributions, issues [page issues](https://github.com/kkmanuu/math-magicians/is
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## :pray: Acknowledgments <a name="acknowledgements"></a>
-I would like to thank  Microverse for this opportunity.
+- I want to appreciate Nelson Sakwa (Behance) for providing the design of this project under Creative Commons License.
+
+- I would like to thank  Microverse for this opportunity
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## :memo: License <a name="license"></a>
