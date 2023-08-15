@@ -1,70 +1,144 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
+# :CRYPTOCURRENCY: Table of Contents
+- [:List:CRYPTOCURRENCY](#-Awesome-a-nameabout-projecta)
+  - [:hammer_and_wrench: Built With ](#-built-with-a-namebuilt-witha)
+    - [Tech Stack ](#tech-stack-a-nametech-stacka)
+    - [Key Features ](#key-features-a-namekey-featuresa)
+  - [:computer: Getting Started ](#-getting-started-a-namegetting-starteda)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+  - [:busts_in_silhouette: Authors ](#-authors-a-nameauthorsa)
+  - [:telescope: Future Features ](#-future-features-a-namefuture-featuresa)
+  - [:star:️ Show your support ](#️-show-your-support-a-namesupporta)
+  - [:handshake: Contributing ](#-contributing-a-namecontributinga)
+  - [:pray: Acknowledgments ](#-acknowledgments-a-nameacknowledgementsa)
+  - [:memo: License ](#-license-a-namelicensea)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+   # :book: CRYPTOCURRENCY <a name="about-project"></a>
+  - This project lay the foundations for a Cryptocurrency website.It is a sophisticated platform for users to access comprehensive information regarding the leading 30 cryptocurrencies.
+## :hammer_and_wrench: Built With <a name="built-with"></a>
+### Tech Stack <a name="tech-stack"></a>
+- HTML
+- CSS
+- JAVASCRIPT
+- React
+- Redux
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Available Scripts
+ ### Key Features <a name="key-features"></a>
+ -  Setting up User-Friendly List Display and Filtering
+ -  Implementing API Integration and Data Display
+ -  Creating Test Cases for Application Reliability
 
-In the project directory, you can run:
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🚀 Live Demo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ [Click here](https://cryptocurrency-agir.onrender.com/)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ [Loom](https://drive.google.com/file/d/1RDkHWh9xgo3lHLWobuFPMlgx6TcHyKDp/view?usp=sharing)
 
-### `npm run build`
+## :computer: Getting Started <a name="getting-started"></a>
+To get a local copy up and running, follow these steps.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
+In order to run this project you need the following:
+- A web browser to view output e.g [Google Chrome](https://www.google.com/chrome/).
+- An IDE e.g [Visual studio code](https://code.visualstudio.com/).
+- `node` should be installed in your local machine, [node website](https://nodejs.org/en/download/).
+- Install the `npm` package manager use this [to install both node and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+- [A terminal](https://code.visualstudio.com/docs/terminal/basics).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Navigate to the location of the folder in your machine
 
-### `npm run eject`
+### Install
+To install all dependencies, run:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Usage
+Because this project uses webpack as a bundler, to run the project, execute the following command:
+- <code>npm run start</code>
+-  OR
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ - <code>npm start</code>
 
-## Learn More
+### Run tests
+To run tests, run the following command:
+- Track HTML linter errors run
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npx hint .
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Track CSS linter errors run:
 
-### Code Splitting
+npx stylelint "**/*.{css,scss}"
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Track JavaScript linter errors run:
 
-### Analyzing the Bundle Size
+npx eslint .
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+### Usage
+To run the project, follow these instructions:
+- After Cloning this repo to your local machine.
+- Open the `index.html` in your browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Run tests
+To run tests, run the following command:
+- Track HTML linter errors run:
 
-### Advanced Configuration
+npx hint .
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Track CSS linter errors run:
 
-### Deployment
+npx stylelint "**/*.{css,scss}"
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Track JavaScript linter errors run:
 
-### `npm run build` fails to minify
+npx eslint .
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Deployment <a name="deployment"></a>
+- Deployed with github pages
+- For more information about publishing sources, see "[About GitHub pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)".
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## :busts_in_silhouette: Authors <a name="authors"></a>
+ Emmanuel Kipngeno
+- GitHub: [@githubhandle](https://github.com/kkmanuu)
+- Twitter: [@twitterhandle](https://twitter.com/kkmanuu)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/emmanuel-kipngeno-879370242/)
+
+
+## :telescope: Future Features <a name="future-features"></a>
+
+-  Setting up User-Friendly List Display and Filtering
+-  Implementing API Integration and Data Display
+-  Creating Test Cases for Application Reliability
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## :star:️ Show your support <a name="support"></a>
+If you like this project give start.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## :handshake: Contributing <a name="contributing"></a>
+Contributions, issues [page issues](https://github.com/kkmanuu/math-magicians/issues), and feature requests are welcome!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## :pray: Acknowledgments <a name="acknowledgements"></a>
+- I want to appreciate Nelson Sakwa (Behance) for providing the design of this project under Creative Commons License.
+
+- I would like to thank  Microverse for this opportunity
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## :memo: License <a name="license"></a>
+This project is [MIT](./LICENSE.md) licensed.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
